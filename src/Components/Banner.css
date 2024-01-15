@@ -1,0 +1,319 @@
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.banner-content {
+  position: relative;
+  width: 100%;
+  max-width: 1220px; /* Ajuste o tamanho máximo conforme necessário */
+  margin-bottom: 20px; /* Adicione espaço entre a foto e as informações adicionais */
+}
+
+.banner-content img {
+  width: 100%; /* Ajuste a largura da imagem conforme necessário */
+  max-height: 400px; /* Ajuste a altura máxima da imagem conforme necessário */
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível */
+  border-radius: 8px; /* Adiciona borda arredondada à imagem */
+}
+.title_banner {
+  z-index: 3;
+  position: absolute;
+  top: 130px;
+  left: 67px;
+  display: flex;
+  width: 412.503px;
+  height: 193px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.title_banner h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+.title_banner_p {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 124px;
+  width: 330px;
+}
+.title_banner_btn button {
+  color: white;
+  background-color: #3a9c51;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 7px 7px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+  position: absolute;
+  top: 192px;
+  width: 255px;
+  border: none;
+}
+.title_banner_btn button:hover {
+  background-color: #1d7531;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 399px;
+  left: 98px;
+  width: calc(100% - 40px);
+  max-width: 664px;
+}
+.additional-info .info {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.info .strong {
+  font-weight: 900;
+  font-size: 14px;
+}
+.info .p_gray {
+  font-size: 14px;
+  color: gray;
+  position: absolute;
+  top: 32px;
+}
+.info .p_gray .phone {
+  font-size: 14px;
+  color: gray;
+  position: absolute;
+  top: 32px;
+  left: 302px;
+}
+.info .p_gray .email {
+  font-size: 14px;
+  color: gray;
+  position: absolute;
+  top: 32px;
+  left: 586px;
+}
+.additional-info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.additional-info svg {
+  width: 15px;
+  height: 15px;
+}
+.appointment-form {
+  position: absolute;
+  top: 21%;
+  left: 62%;
+  transform: translate(27%, 1%);
+  width: 100%;
+  max-width: 289px;
+  height: 407px;
+  max-height: 80vh;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 8px 5px 1px #8080805c;
+  box-sizing: border-box;
+  max-height: 80vh;
+}
+
+.appointment-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 11px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.appointment-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form label {
+  margin-bottom: 8px;
+}
+
+.appointment-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.appointment-form button {
+  padding: 12px;
+  background-color: #3a9c51; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+}
+
+.appointment-form button:hover {
+  background-color: #0b620b;
+}
+@media only screen and (max-width: 768px) {
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .title_banner h1 {
+    display: none;
+  }
+  .title_banner_p {
+    display: none;
+  }
+  .title_banner_btn button {
+    display: none;
+  }
+
+  .additional-info {
+    display: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: none;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column; /* Alteração para coluna */
+    align-items: center;
+  }
+
+  .info .strong {
+    display: none;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 18px;
+  }
+  .additional-info .info {
+    display: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .additional-info p {
+    display: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin: 5px;
+  }
+  .info {
+    display: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .strong,
+  .p_gray {
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    text-align: center; /* Adicionado alinhamento central */
+  }
+
+  .p_gray {
+    display: none;
+    font-size: 16px;
+    color: gray;
+    margin-top: 4px; /* Espaço superior entre os parágrafos */
+  }
+  .p_gray .email {
+    position: absolute;
+    font-size: 16px;
+    top: 187px;
+    left: 139px;
+  }
+
+  .appointment-form {
+    position: absolute;
+    top: 304px;
+    left: auto;
+    transform: none;
+    width: 91%;
+    max-width: none;
+    height: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alteração para coluna */
+    align-items: center;
+  }
+  .appointment-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .appointment-form form {
+    width: 100%;
+    max-width: 289px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .appointment-form {
+    position: absolute;
+    top: 256px;
+    left: auto;
+    transform: none;
+    width: 91%;
+    max-width: none;
+    height: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appointment-form form {
+    width: 100%;
+    max-width: 289px;
+  }
+  .appointment-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+  }
+}

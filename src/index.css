@@ -1,0 +1,9 @@
+body,
+html {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1220px;
+  height: 6291px;
+  border-radius: 20px;
+  background: #fff;
+}

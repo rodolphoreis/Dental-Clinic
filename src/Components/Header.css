@@ -1,0 +1,188 @@
+.header-container {
+  margin-top: 2px;
+  width: 100%;
+  height: 76px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo a {
+  text-decoration: none;
+  color: #3a9c51;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 31px;
+  margin-right: 15px;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  margin: 0 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+
+nav a:hover {
+  color: #3a9c51;
+}
+
+.cta-button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #33ab4f;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+}
+
+.cta-button a:hover {
+  background-color: #1d7531;
+}
+
+.mobile-menu-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.mobile-menu-button span {
+  width: 30px;
+  height: 4px;
+  background-color: #fff; /* Cor dos ícones do menu mobile */
+  margin: 6px 0;
+  transition: background-color 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    margin-top: 10px;
+
+    width: 100%;
+    height: 58px;
+    background-color: #ffffff;
+  }
+  .logo img {
+    width: 29px;
+    margin-right: 13px;
+  }
+  .logo a {
+    text-decoration: none;
+    color: #3a9c51;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+  }
+  nav {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 63px; /* Altura do header */
+    left: 0;
+    background-color: #33ab4f; /* Cor de fundo do menu mobile */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    font-family: sans-serif;
+  }
+
+  nav a {
+    display: block;
+    flex-direction: column;
+    padding: -11px;
+    font-family: sans-serif;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+  .cta-button {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+    position: absolute;
+    top: 23px;
+    right: 27px;
+    color: #3a9c51;
+  }
+
+  .mobile-menu-button span {
+    background-color: #fff;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: background-color 0.3s ease;
+  }
+
+  .mobile-menu-button.active span:nth-child(1),
+  .mobile-menu-button.active span:nth-child(3) {
+    background-color: transparent; /* Animação para transformar o ícone em 'X' */
+  }
+
+  .mobile-menu-button.active span:nth-child(2) {
+    transform: rotate(45deg); /* Animação para transformar o ícone em 'X' */
+  }
+
+  .mobile-menu-button.active span:nth-child(3) {
+    transform: rotate(-45deg); /* Animação para transformar o ícone em 'X' */
+  }
+}

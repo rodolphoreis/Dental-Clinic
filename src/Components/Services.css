@@ -1,0 +1,116 @@
+.Toastify__toast-container {
+  width: 100%;
+  max-width: 400px; /* Defina o valor máximo desejado */
+  margin: 0 auto;
+}
+.Services_Container {
+  height: 379px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Services_H2 h2 {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.Services_container_img_paragrafo {
+  width: 1220px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Services_img_descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+.Services_img_descricao img {
+  width: 65px;
+  height: 70px;
+}
+.Services_img_descricao span {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+}
+.Services_btn {
+  margin-top: 120px;
+  align-self: center;
+}
+.Services_btn .Services_btn_SaberMais {
+  color: white;
+  background-color: #3a9c51;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 7px 7px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+  width: 255px;
+  border: none;
+}
+/* ------------------- */
+
+/* --------------------------------*/
+/* Adicione uma regra de media query para estilos responsivos */
+@media only screen and (max-width: 768px) {
+  .Services_Container {
+    height: auto;
+    margin-top: 290px;
+    padding: 20px;
+  }
+
+  .Services_H2 h2 {
+    font-size: 22px;
+  }
+
+  .Services_container_img_paragrafo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Services_img_descricao {
+    flex: 0 0 48%;
+    margin-top: 20px;
+  }
+
+  .Services_img_descricao img {
+    width: 50px;
+    height: 55px;
+  }
+
+  .Services_img_descricao span {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .Services_btn {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .Services_btn .Services_btn_SaberMais {
+    font-size: 16px;
+    padding: 5px 10px;
+    line-height: 26px;
+    width: 100%;
+    margin-top: 190px;
+  }
+}
