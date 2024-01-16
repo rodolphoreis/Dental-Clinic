@@ -20,4 +20,4 @@ Esta aplicação web, construída com React, serve como uma interface para geren
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-nome-de-usuario/Dental-Clinic.git
+   git clone https://github.com/seu-nome-de-usuario/Dental-Clinic
