@@ -1,8 +1,20 @@
-# React + Vite
+# Aplicação Dental Clinic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
 
-Currently, two official plugins are available:
+Esta aplicação web, construída com React, serve como uma interface para gerenciar os serviços de uma clínica odontológica. Apresenta design responsivo, animações AOS e uma experiência amigável ao usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+
+- Design responsivo
+- Animações AOS
+- Detalhes do serviço com imagens
+- Botão "Saber Mais" para informações adicionais
+- Notificações "Toast" para feedback do usuário
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-nome-de-usuario/Dental-Clinic
