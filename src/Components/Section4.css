@@ -1,0 +1,136 @@
+.Section4_Container {
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Alterado para altura automática */
+  margin-top: 40px;
+  margin: 60px 20px;
+}
+
+.Section4_container_img_and_text {
+  display: flex;
+  flex-direction: row; /* Adicionado flex-wrap para que os elementos se ajustem na mesma linha ou abaixo */
+}
+
+.Section4_h2 h2 {
+  font-size: 30px; /* Mantido o tamanho original */
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.Section4_img img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+  height: auto;
+  width: 1632px;
+}
+.Section4_container_text_and_button {
+  margin: 20px 0 0 30px;
+}
+
+.Section4_text p {
+  color: #545454;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+}
+
+.Section4_btn button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #33ab4f;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+  border: none;
+  margin-top: 30px;
+}
+
+/* Estilos para responsividade */
+@media (max-width: 1032px) {
+  .Section4_img img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do seu contêiner */
+  }
+  .Section4_container_img_and_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Section4_container_text_and_button {
+    margin: 20px 20px; /* Ajuste conforme necessário */
+  }
+  .Section4_Container {
+    margin-bottom: 10px;
+  }
+  .Section4_text {
+    margin: 0 -6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section4_Container {
+    margin-top: 19px;
+    margin-bottom: 10px;
+  }
+  .Section4_img img {
+    margin: 20px 0; /* Ajuste conforme necessário */
+  }
+
+  .Section4_container_text_and_button {
+    margin: 20px 20px; /* Ajuste conforme necessário */
+  }
+  .Section4_container_img_and_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Section4_text {
+    margin: 0 20px;
+  }
+  .Section4_btn {
+    margin: 0 20px;
+  }
+  .Section4_text {
+    margin: 0 -6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Section4_Container {
+    margin-bottom: 10px;
+  }
+  .Section4_img img {
+    margin: 20px 0; /* Ajuste conforme necessário */
+  }
+
+  .Section4_container_text_and_button {
+    margin: 20px 0; /* Ajuste conforme necessário */
+  }
+  .Section4_container_img_and_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Section4_text {
+    margin: 0 -6px;
+  }
+
+  .Section4_text p {
+    color: #545454;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+  }
+}

@@ -9,24 +9,23 @@
 .banner-content {
   position: relative;
   width: 100%;
-  max-width: 1220px; /* Ajuste o tamanho máximo conforme necessário */
-  margin-bottom: 20px; /* Adicione espaço entre a foto e as informações adicionais */
+  max-width: 1220px;
+  margin-bottom: 20px;
 }
 
 .banner-content img {
-  width: 100%; /* Ajuste a largura da imagem conforme necessário */
-  max-height: 400px; /* Ajuste a altura máxima da imagem conforme necessário */
-  object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível */
-  border-radius: 8px; /* Adiciona borda arredondada à imagem */
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
 }
+
 .title_banner {
   z-index: 3;
   position: absolute;
   top: 130px;
   left: 67px;
   display: flex;
-  width: 412.503px;
-  height: 193px;
   flex-direction: column;
   flex-shrink: 0;
 }
@@ -40,6 +39,7 @@
   line-height: normal;
   letter-spacing: -1px;
 }
+
 .title_banner_p {
   color: #fff;
   font-family: sans-serif;
@@ -52,6 +52,7 @@
   top: 124px;
   width: 330px;
 }
+
 .title_banner_btn button {
   color: white;
   background-color: #3a9c51;
@@ -67,6 +68,7 @@
   width: 255px;
   border: none;
 }
+
 .title_banner_btn button:hover {
   background-color: #1d7531;
 }
@@ -80,22 +82,26 @@
   width: calc(100% - 40px);
   max-width: 664px;
 }
+
 .additional-info .info {
   text-align: center;
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
+
 .info .strong {
   font-weight: 900;
   font-size: 14px;
 }
+
 .info .p_gray {
   font-size: 14px;
   color: gray;
   position: absolute;
   top: 32px;
 }
+
 .info .p_gray .phone {
   font-size: 14px;
   color: gray;
@@ -103,6 +109,7 @@
   top: 32px;
   left: 302px;
 }
+
 .info .p_gray .email {
   font-size: 14px;
   color: gray;
@@ -110,6 +117,7 @@
   top: 32px;
   left: 586px;
 }
+
 .additional-info p {
   display: flex;
   align-items: center;
@@ -123,6 +131,7 @@
   width: 15px;
   height: 15px;
 }
+
 .appointment-form {
   position: absolute;
   top: 21%;
@@ -168,8 +177,8 @@
 
 .appointment-form button {
   padding: 12px;
-  background-color: #3a9c51; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
+  background-color: #3a9c51;
+  color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -181,23 +190,58 @@
 .appointment-form button:hover {
   background-color: #0b620b;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
+  .title_banner {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+  }
+  .appointment-form {
+    display: none;
+  }
   .banner-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center; /* Ajuste conforme necessário */
+  }
+  .title_banner h1,
+  .title_banner_p,
+  .title_banner_btn {
+    width: 100%;
+    display: none;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .title_banner {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
   }
 
-  .title_banner h1 {
+  .banner-content {
+    flex-direction: column-reverse;
+    align-items: center; /* Ajuste conforme necessário */
+  }
+
+  .title_banner h1,
+  .title_banner_p,
+  .title_banner_btn {
+    width: 100%;
     display: none;
   }
-  .title_banner_p {
-    display: none;
+}
+
+/* Responsividade para Tablets (768px) */
+@media only screen and (max-width: 768px) {
+  .banner-content {
+    margin-top: 5px;
   }
-  .title_banner_btn button {
+  .title_banner {
     display: none;
   }
 
   .additional-info {
-    display: none;
     position: relative;
     top: auto;
     left: auto;
@@ -205,7 +249,7 @@
     max-width: none;
     margin-top: -8px;
     display: flex;
-    flex-direction: column; /* Alteração para coluna */
+    flex-direction: column;
     align-items: center;
   }
 
@@ -215,12 +259,14 @@
     font-size: 14px;
     font-size: 18px;
   }
+
   .additional-info .info {
     display: none;
     text-align: center;
     display: flex;
     flex-direction: column;
   }
+
   .additional-info p {
     display: none;
     font-size: 16px;
@@ -229,6 +275,7 @@
     gap: 4px;
     margin: 5px;
   }
+
   .info {
     display: none;
     margin-bottom: 10px;
@@ -238,19 +285,19 @@
   .strong,
   .p_gray {
     display: none;
-    /* display: flex; */
     align-items: center;
     gap: 4px;
     justify-content: center;
-    text-align: center; /* Adicionado alinhamento central */
+    text-align: center;
   }
 
   .p_gray {
     display: none;
     font-size: 16px;
     color: gray;
-    margin-top: 4px; /* Espaço superior entre os parágrafos */
+    margin-top: 4px;
   }
+
   .p_gray .email {
     position: absolute;
     font-size: 16px;
@@ -270,9 +317,10 @@
     box-sizing: border-box;
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Alteração para coluna */
+    flex-direction: column;
     align-items: center;
   }
+
   .appointment-form h2 {
     color: #333;
     margin-bottom: 20px;
@@ -287,6 +335,8 @@
     max-width: 289px;
   }
 }
+
+/* Responsividade para Dispositivos Pequenos (450px) */
 @media only screen and (max-width: 450px) {
   .appointment-form {
     position: absolute;
@@ -308,6 +358,15 @@
     width: 100%;
     max-width: 289px;
   }
+
+  .appointment-form input {
+    padding: 11px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
   .appointment-form h2 {
     color: #333;
     margin-bottom: 20px;

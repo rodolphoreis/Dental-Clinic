@@ -92,8 +92,83 @@ nav a:hover {
   margin: 6px 0;
   transition: background-color 0.3s ease;
 }
+@media only screen and (max-width: 841px) {
+  nav {
+    display: none;
+  }
+  .cta-button {
+    display: none;
+  }
+  .logo aos-init aos-animate {
+    margin-top: -2px;
+  }
+  .logo a {
+    text-decoration: none;
+    color: #3a9c51;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+  }
+  nav.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 63px; /* Altura do header */
+    left: 0;
+    background-color: #33ab4f; /* Cor de fundo do menu mobile */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    font-family: sans-serif;
+    width: 100%;
+  }
+  nav a {
+    color: white;
+  }
+  nav ul {
+    align-self: center;
+  }
+  .mobile-menu-button {
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+    position: absolute;
+    top: 26px;
+    right: 27px;
+    color: #3a9c51;
+  }
 
+  .mobile-menu-button span {
+    background-color: #fff;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: background-color 0.3s ease;
+  }
+
+  .mobile-menu-button.active span:nth-child(1),
+  .mobile-menu-button.active span:nth-child(3) {
+    background-color: transparent; /* Animação para transformar o ícone em 'X' */
+  }
+
+  .mobile-menu-button.active span:nth-child(2) {
+    transform: rotate(45deg); /* Animação para transformar o ícone em 'X' */
+  }
+
+  .mobile-menu-button.active span:nth-child(3) {
+    transform: rotate(-45deg); /* Animação para transformar o ícone em 'X' */
+  }
+}
 @media only screen and (max-width: 768px) {
+  .container {
+    margin-top: -15px;
+  }
+  .logo aos-init aos-animate {
+    margin-top: -2px;
+  }
   .header-container {
     margin-top: 10px;
 
@@ -109,7 +184,7 @@ nav a:hover {
     text-decoration: none;
     color: #3a9c51;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
@@ -159,7 +234,7 @@ nav a:hover {
     cursor: pointer;
     margin-left: auto;
     position: absolute;
-    top: 23px;
+    top: 32px;
     right: 27px;
     color: #3a9c51;
   }

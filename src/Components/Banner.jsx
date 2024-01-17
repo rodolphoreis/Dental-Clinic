@@ -16,7 +16,9 @@ const Banner = () => {
 
         <div className="title_banner">
           <div className="title_banner_h1" data-aos="fade-up-right">
-            <h1>Para sorrisos saudáveis e completos</h1>
+            <h1>
+              Para sorrisos <br /> saudáveis e completos
+            </h1>
           </div>
           <div className="title_banner_p" data-aos="fade-up-right">
             <p>Odontologia geral e estética abrangente</p>

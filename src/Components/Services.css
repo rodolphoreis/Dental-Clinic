@@ -1,6 +1,6 @@
 .Toastify__toast-container {
   width: 100%;
-  max-width: 400px; /* Defina o valor máximo desejado */
+  max-width: 400px;
   margin: 0 auto;
 }
 .Services_Container {
@@ -8,7 +8,6 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .Services_H2 h2 {
@@ -20,7 +19,6 @@
   text-align: center;
 }
 .Services_container_img_paragrafo {
-  width: 1220px;
   height: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -64,10 +62,12 @@
   width: 255px;
   border: none;
 }
-/* ------------------- */
+.Services_btn .Services_btn_SaberMais:hover {
+  cursor: pointer;
+  background-color: #2fbe51;
+}
+/* -------------Mobile----------------- */
 
-/* --------------------------------*/
-/* Adicione uma regra de media query para estilos responsivos */
 @media only screen and (max-width: 768px) {
   .Services_Container {
     height: auto;

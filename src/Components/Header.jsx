@@ -32,29 +32,25 @@ const Header = () => {
           <nav className={isMobileMenuVisible ? "active" : ""}>
             <ul>
               <li>
-                <a href="#section1" onClick={closeMobileMenu}>
+                <a href="#nossos-servicos" onClick={closeMobileMenu}>
                   Nossos serviços
                 </a>
               </li>
+
               <li>
-                <a href="#section2" onClick={closeMobileMenu}>
-                  Por que nós
+                <a href="#odontologia-geral" onClick={closeMobileMenu}>
+                  Odontologia Geral
                 </a>
               </li>
               <li>
-                <a href="#section3" onClick={closeMobileMenu}>
-                  O que nós fazemos
-                </a>
-              </li>
-              <li>
-                <a href="#section4" onClick={closeMobileMenu}>
-                  Contate-nos
+                <a href="#sobre" onClick={closeMobileMenu}>
+                  Sobre
                 </a>
               </li>
             </ul>
           </nav>
           <div className="cta-button">
-            <a href="#marqueConsulta">Agende sua Consulta</a>
+            <a href="#contatos">Contate-nos</a>
           </div>
           <div className="mobile-menu-button" onClick={toggleMobileMenu}>
             {isMobileMenuVisible ? (

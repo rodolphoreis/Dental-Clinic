@@ -3,6 +3,9 @@ import Banner from "./Components/Banner";
 import Header from "./Components/Header";
 import Services from "./Components/Services";
 import Section3 from "./Components/Section3";
+import Section4 from "./Components/Section4";
+import Sobre from "./Components/Sobre";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
@@ -14,7 +17,7 @@ function App() {
           <Banner />
         </section>
 
-        <section id="section2">
+        <section id="nossos-servicos">
           <Services />
         </section>
 
@@ -22,10 +25,17 @@ function App() {
           <Section3 />
         </section>
 
-        <section id="section4"></section>
+        <section id="odontologia-geral">
+          <Section4 />
+        </section>
+        <section id="sobre">
+          <Sobre />
+        </section>
       </main>
 
-      <footer></footer>
+      <footer id="contatos">
+        <Footer />
+      </footer>
     </>
   );
 }

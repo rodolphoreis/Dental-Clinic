@@ -109,11 +109,7 @@ const Services = () => {
       </div>
 
       <div className="Services_btn">
-        <button
-          onClick={showToast}
-          className="Services_btn_SaberMais"
-          data-aos="zoom-in"
-        >
+        <button onClick={showToast} className="Services_btn_SaberMais">
           Saber Mais
         </button>
         <ToastContainer />
