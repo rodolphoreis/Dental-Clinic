@@ -1,13 +1,13 @@
 import AOS from "aos";
-import "aos/dist/aos.css"; // Importe os estilos
-import { useEffect } from "react"; // Adicione o React e o useEffect
-import { FaClock, FaPhone, FaEnvelope } from "react-icons/fa"; // Importe os ícones
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { FaClock, FaPhone, FaEnvelope } from "react-icons/fa";
 import "./Banner.css";
 
 const Banner = () => {
   useEffect(() => {
-    AOS.init(); // Inicialize o AOS dentro do useEffect
-  }, []); // Adicione os colchetes vazios para garantir que o useEffect seja executado apenas uma vez
+    AOS.init();
+  }, []);
 
   return (
     <section className="banner">

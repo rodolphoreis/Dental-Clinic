@@ -195,14 +195,14 @@
     position: static;
     transform: none;
     text-align: center;
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
   }
   .appointment-form {
     display: none;
   }
   .banner-content {
     flex-direction: column-reverse;
-    align-items: center; /* Ajuste conforme necessário */
+    align-items: center;
   }
   .title_banner h1,
   .title_banner_p,
@@ -216,12 +216,12 @@
     position: static;
     transform: none;
     text-align: center;
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
   }
 
   .banner-content {
     flex-direction: column-reverse;
-    align-items: center; /* Ajuste conforme necessário */
+    align-items: center;
   }
 
   .title_banner h1,
@@ -232,7 +232,6 @@
   }
 }
 
-/* Responsividade para Tablets (768px) */
 @media only screen and (max-width: 768px) {
   .banner-content {
     margin-top: 5px;
@@ -336,7 +335,6 @@
   }
 }
 
-/* Responsividade para Dispositivos Pequenos (450px) */
 @media only screen and (max-width: 450px) {
   .appointment-form {
     position: absolute;

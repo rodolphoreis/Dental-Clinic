@@ -29,10 +29,10 @@
 @media (max-width: 1000px) {
   .Sobre_Container {
     display: flex;
-    flex-direction: column; /* Alterado para uma disposição em coluna em telas menores */
+    flex-direction: column;
     margin: 59px 20px 0;
-    height: auto; /* Alterado para altura automática */
-    align-items: center; /* Centralizar na horizontal em telas menores */
+    height: auto;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {

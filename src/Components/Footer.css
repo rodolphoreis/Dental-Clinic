@@ -46,7 +46,6 @@ a {
   text-align: center;
 }
 
-/* Estilos para responsividade */
 @media (max-width: 768px) {
   .Footer_Container {
     flex-direction: column;

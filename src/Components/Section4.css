@@ -1,18 +1,18 @@
 .Section4_Container {
   display: flex;
   flex-direction: column;
-  height: auto; /* Alterado para altura automática */
+  height: auto;
   margin-top: 40px;
   margin: 60px 20px;
 }
 
 .Section4_container_img_and_text {
   display: flex;
-  flex-direction: row; /* Adicionado flex-wrap para que os elementos se ajustem na mesma linha ou abaixo */
+  flex-direction: row;
 }
 
 .Section4_h2 h2 {
-  font-size: 30px; /* Mantido o tamanho original */
+  font-size: 30px;
   color: rgb(0, 0, 0);
   font-family: sans-serif;
   font-weight: 900;
@@ -55,10 +55,9 @@
   margin-top: 30px;
 }
 
-/* Estilos para responsividade */
 @media (max-width: 1032px) {
   .Section4_img img {
-    width: 100%; /* Faz a imagem ocupar 100% da largura do seu contêiner */
+    width: 100%;
   }
   .Section4_container_img_and_text {
     display: flex;
@@ -66,7 +65,7 @@
     justify-content: center;
   }
   .Section4_container_text_and_button {
-    margin: 20px 20px; /* Ajuste conforme necessário */
+    margin: 20px 20px;
   }
   .Section4_Container {
     margin-bottom: 10px;
@@ -82,11 +81,11 @@
     margin-bottom: 10px;
   }
   .Section4_img img {
-    margin: 20px 0; /* Ajuste conforme necessário */
+    margin: 20px 0;
   }
 
   .Section4_container_text_and_button {
-    margin: 20px 20px; /* Ajuste conforme necessário */
+    margin: 20px 20px;
   }
   .Section4_container_img_and_text {
     display: flex;
@@ -109,11 +108,11 @@
     margin-bottom: 10px;
   }
   .Section4_img img {
-    margin: 20px 0; /* Ajuste conforme necessário */
+    margin: 20px 0;
   }
 
   .Section4_container_text_and_button {
-    margin: 20px 0; /* Ajuste conforme necessário */
+    margin: 20px 0;
   }
   .Section4_container_img_and_text {
     display: flex;

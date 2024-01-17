@@ -88,7 +88,7 @@ nav a:hover {
 .mobile-menu-button span {
   width: 30px;
   height: 4px;
-  background-color: #fff; /* Cor dos ícones do menu mobile */
+  background-color: #fff;
   margin: 6px 0;
   transition: background-color 0.3s ease;
 }
@@ -116,9 +116,9 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 63px; /* Altura do header */
+    top: 63px;
     left: 0;
-    background-color: #33ab4f; /* Cor de fundo do menu mobile */
+    background-color: #33ab4f;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 3;
     font-family: sans-serif;
@@ -151,15 +151,15 @@ nav a:hover {
 
   .mobile-menu-button.active span:nth-child(1),
   .mobile-menu-button.active span:nth-child(3) {
-    background-color: transparent; /* Animação para transformar o ícone em 'X' */
+    background-color: transparent;
   }
 
   .mobile-menu-button.active span:nth-child(2) {
-    transform: rotate(45deg); /* Animação para transformar o ícone em 'X' */
+    transform: rotate(45deg);
   }
 
   .mobile-menu-button.active span:nth-child(3) {
-    transform: rotate(-45deg); /* Animação para transformar o ícone em 'X' */
+    transform: rotate(-45deg);
   }
 }
 @media only screen and (max-width: 768px) {
@@ -205,9 +205,9 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 63px; /* Altura do header */
+    top: 63px;
     left: 0;
-    background-color: #33ab4f; /* Cor de fundo do menu mobile */
+    background-color: #33ab4f;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 3;
     font-family: sans-serif;
@@ -250,14 +250,14 @@ nav a:hover {
 
   .mobile-menu-button.active span:nth-child(1),
   .mobile-menu-button.active span:nth-child(3) {
-    background-color: transparent; /* Animação para transformar o ícone em 'X' */
+    background-color: transparent;
   }
 
   .mobile-menu-button.active span:nth-child(2) {
-    transform: rotate(45deg); /* Animação para transformar o ícone em 'X' */
+    transform: rotate(45deg);
   }
 
   .mobile-menu-button.active span:nth-child(3) {
-    transform: rotate(-45deg); /* Animação para transformar o ícone em 'X' */
+    transform: rotate(-45deg);
   }
 }
