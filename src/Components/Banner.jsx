@@ -24,9 +24,6 @@ const Banner = () => {
           <div className="title_banner_p" data-aos="fade-up-right">
             <p>Odontologia geral e estética abrangente</p>
           </div>
-          <div className="title_banner_btn">
-            <button type="submit">Solicite uma consulta</button>
-          </div>
         </div>
 
         <div className="additional-info">
@@ -52,11 +49,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="appointment-form">
-        <h2>Agende uma Consulta</h2>
-        <div>
-          <ContactForm />
-        </div>
+
+      <div className="form_schedule_a_consultation">
+        <ContactForm />
       </div>
     </section>
   );

@@ -8,7 +8,9 @@ const Section3 = () => {
         <p>Tratamentos Ortodônticos Adultos ou Infantis</p>
       </div>
       <div className="green_rectangle_btn">
-        <button>Marque uma Consulta</button>
+        <button>
+          <a href="#contatos">Agende uma Consulta</a>
+        </button>
       </div>
     </div>
   );
