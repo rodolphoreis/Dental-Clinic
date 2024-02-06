@@ -132,12 +132,15 @@
   height: 15px;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1150px) {
   .title_banner {
     position: static;
     transform: none;
     text-align: center;
     margin-top: 20px;
+  }
+  .form_schedule_a_consultation form {
+    display: none;
   }
   .appointment-form {
     display: none;
@@ -160,7 +163,9 @@
     text-align: center;
     margin-top: 20px;
   }
-
+  .form_schedule_a_consultation form {
+    display: flex;
+  }
   .banner-content {
     flex-direction: column-reverse;
     align-items: center;
@@ -181,7 +186,9 @@
   .title_banner {
     display: none;
   }
-
+  .form_schedule_a_consultation {
+    left: 580px;
+  }
   .additional-info {
     position: relative;
     top: auto;
