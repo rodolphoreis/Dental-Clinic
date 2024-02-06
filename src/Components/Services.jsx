@@ -78,32 +78,32 @@ const Services = () => {
 
       <div className="Services_container_img_paragrafo" data-aos="zoom-in">
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/dental 1.jpg" alt="dentes" />
+          <img src="/img-servicos/dental 1.jpg" alt="dentes" />
           <span>Próteses</span>
         </div>
 
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/braces 1.jpg" alt="dentes" />
+          <img src="/img-servicos/braces 1.jpg" alt="dentes" />
           <span>Aparelhos</span>
         </div>
 
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/Group (1).jpg" alt="dentes" />
+          <img src="/img-servicos/Group (1).jpg" alt="dentes" />
           <span>Aparelhos</span>
         </div>
 
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/Group (2).jpg" alt="dentes" />
+          <img src="/img-servicos/Group (2).jpg" alt="dentes" />
           <span>Aparelhos</span>
         </div>
 
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/Group (3).jpg" alt="dentes" />
+          <img src="/img-servicos/Group (3).jpg" alt="dentes" />
           <span>Implantes</span>
         </div>
 
         <div className="Services_img_descricao">
-          <img src="./src/img-servicos/Group1.jpg" alt="dentes" />
+          <img src="/img-servicos/Group1.jpg" alt="dentes" />
           <span>Canal</span>
         </div>
       </div>

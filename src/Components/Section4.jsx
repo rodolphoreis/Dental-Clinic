@@ -9,7 +9,7 @@ const Section4 = () => {
 
       <div className="Section4_container_img_and_text">
         <div className="Section4_img">
-          <img src="./src/img-servicos/image 3.jpg" alt="consultório" />
+          <img src="/img-servicos/image 3.jpg" alt="consultório" />
         </div>
         <div className="Section4_container_text_and_button">
           <div className="Section4_text">

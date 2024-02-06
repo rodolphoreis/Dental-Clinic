@@ -28,10 +28,7 @@ const Sobre = () => {
       </div>
 
       <div className="Sobre_Container_img">
-        <img
-          src="./src/img-servicos/dentistas.jpg"
-          alt="imagem de dois dentistas"
-        />
+        <img src="/img-servicos/dentistas.jpg" alt="imagem de dois dentistas" />
       </div>
     </div>
   );
