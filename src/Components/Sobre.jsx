@@ -12,14 +12,14 @@ const Sobre = () => {
             A Sorria Já é uma das maiores empresas odontológicas laboratórios No
             Rio de Janeiro e especialista em estética próteses dentárias de alta
             qualidade, bem como pioneira em odontologia digital. O é uma das
-            maiores empresas odontológicas laboratórios em Cabo FRio e
+            maiores empresas odontológicas laboratórios em Cabo Frio e
             especialista em estética dentaduras de alta qualidade
             <br />
             <br />A Sorria Já é uma das maiores empresas odontológicas
             laboratórios No Rio de Janeiro e especialista em estética próteses
             dentárias de alta qualidade, bem como pioneira em odontologia
             digital. O é uma das maiores empresas odontológicas laboratórios em
-            Cabo FRio e especialista em estética dentaduras de alta qualidade
+            Cabo Frio e especialista em estética dentaduras de alta qualidade
           </p>
         </div>
       </div>
