@@ -9,20 +9,17 @@ const Sobre = () => {
         </div>
         <div className="Sobre_paragrafo">
           <p>
-            The van Ghemen Zahntechnik GmbH is one of the largest dental
-            laboratories in Berlin and a specialist for aesthetically
-            high-quality dentures as well as a pioneer in digital dentistry. The
-            van Ghemen Zahntechnik GmbH is one of the largest dental
-            laboratories in Berlin and a specialist for aesthetically
-            high-quality dentures
+            A Sorria Já é uma das maiores empresas odontológicas laboratórios No
+            Rio de Janeiro e especialista em estética próteses dentárias de alta
+            qualidade, bem como pioneira em odontologia digital. O é uma das
+            maiores empresas odontológicas laboratórios em Cabo FRio e
+            especialista em estética dentaduras de alta qualidade
             <br />
-            <br />
-            The van Ghemen Zahntechnik GmbH is one of the largest dental
-            laboratories in Berlin and a specialist for aesthetically
-            high-quality dentures as well as a pioneer in digital dentistry. The
-            van Ghemen Zahntechnik GmbH is one of the largest dental
-            laboratories in Berlin and a specialist for aesthetically
-            high-quality dentures as well as a pioneer in digital dentistry.
+            <br />A Sorria Já é uma das maiores empresas odontológicas
+            laboratórios No Rio de Janeiro e especialista em estética próteses
+            dentárias de alta qualidade, bem como pioneira em odontologia
+            digital. O é uma das maiores empresas odontológicas laboratórios em
+            Cabo FRio e especialista em estética dentaduras de alta qualidade
           </p>
         </div>
       </div>
